@@ -1,0 +1,79 @@
+/* src/StudentTable.css */
+
+/* Container styling */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header styling */
+  h1 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Details section styling */
+  .details {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Paragraph styling within details */
+  .details p {
+    margin: 10px 0;
+    font-size: 1.1rem;
+    color: #444;
+  }
+  
+  /* Strong tag styling for labels */
+  .details strong {
+    color: #2c3e50;
+    font-weight: 600;
+    min-width: 80px;
+    display: inline-block;
+  }
+  
+  /* Back button styling */
+  .btn-back {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-back:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 600px) {
+    .container {
+      padding: 10px;
+    }
+    
+    h1 {
+      font-size: 1.5rem;
+    }
+    
+    .details {
+      padding: 15px;
+    }
+    
+    .details p {
+      font-size: 1rem;
+    }
+    
+    .btn-back {
+      padding: 8px 15px;
+    }
+  }

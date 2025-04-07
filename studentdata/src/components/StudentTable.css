@@ -1,0 +1,98 @@
+/* Add this to your CSS file (e.g., StudentTable.css or a global stylesheet) */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+   
+  }
+  
+  h2 {
+    color: #333333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .table-container {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 600px;
+  }
+  
+  thead {
+    background-color: #f5f5f5;
+  }
+  
+  th {
+    padding: 12px 15px;
+    text-align: left;
+    font-weight: 600;
+    color: #444;
+    text-transform: uppercase;
+  }
+  
+  td {
+    padding: 12px 15px;
+    border-top: 1px solid #eee;
+    color: #666;
+  }
+  
+  tr:hover {
+    background-color: #f9f9f9;
+  }
+  
+  /* Button Styles */
+  .btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin: 0 5px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-add {
+    background-color: #28a745;
+    color: white;
+    margin-bottom: 15px;
+    display: inline-block;
+  }
+  
+  .btn-add:hover {
+    background-color: #218838;
+  }
+  
+  .btn-info {
+    background-color: #17a2b8;
+    color: white;
+  }
+  
+  .btn-info:hover {
+    background-color: #138496;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0069d9;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c82333;
+  }
