@@ -1,16 +1,3 @@
 {
-  "students": [
-    {
-      "id": "3",
-      "name": "harish",
-      "place": "chennai",
-      "phone": "7896321450"
-    },
-    {
-      "id": "4",
-      "name": "jithu",
-      "place": "ambur",
-      "phone": "7010806700"
-    }
-  ]
+  "students": []
 }

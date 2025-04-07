@@ -14,7 +14,7 @@ function ViewDetails() {
   },[]);
   return (
     <div className="container">
-      <h1>Student Deatils</h1>
+      <h1>Student Details</h1>
      { studentData &&< div className="details">
         <p><strong>ID: </strong>{studentData.id}</p>
         <p><strong>NAME: </strong>{studentData.name}</p>
